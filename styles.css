@@ -1,0 +1,39 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the white background */
+body {
+    background-color: #fff;
+}
+
+/* Center-align the header text */
+header {
+    text-align: center;
+    padding: 20px 0; /* Add some top and bottom spacing */
+}
+
+/* Style the heading text */
+h5 {
+    font-size: 18px;
+    color: #000; /* Choose your preferred text color */
+    margin: 5px 0;
+}
+
+/* Center-align the image */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -18px
+    /* This ensures the image takes up the full viewport height */
+}
+
+/* Style the image (optional) */
+img {
+    max-width: 100%;
+    height: auto;
+    
+}
